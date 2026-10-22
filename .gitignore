@@ -1,0 +1,12 @@
+# Build & IDE folders
+**/bin/
+**/obj/
+**/build/
+**/.dart_tool/
+**/.gradle/
+**/.idea/
+**/.vs/
+*.user
+*.suo
+*.zip
+dangthithaiha/android/local.properties

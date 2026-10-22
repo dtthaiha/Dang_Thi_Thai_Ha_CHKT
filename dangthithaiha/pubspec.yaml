@@ -1,0 +1,29 @@
+name: dangthithaiha
+description: "Ứng dụng Quản lý Điện thoại Trẻ em - Child Guard"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  geolocator: ^11.1.0
+  sensors_plus: ^5.0.1
+  noise_meter: ^5.0.2
+  agora_rtc_engine: ^6.6.4
+  flutter_local_notifications: ^17.2.4
+  permission_handler: ^11.4.0
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
