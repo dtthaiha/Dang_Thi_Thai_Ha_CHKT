@@ -4,6 +4,7 @@
 - **Sinh viên thực hiện**: Đặng Thị Thái Hà
 - **Mã số sinh viên (MSSV)**: 2380600564 - Nhóm CHKT
 - **Link GitHub Tổng**: https://github.com/dtthaiha/Dang_Thi_Thai_Ha_CHKT
+- **Link Public API (Conveyor Cloud Live Swagger)**: https://foundtanboard45.conveyor.cloud/swagger/index.html *(Bản trước khi khởi động lại VS: `https://lastsparklyshop42.conveyor.cloud/swagger/index.html`)*
 - **Công nghệ sử dụng**:
   - **Backend**: ASP.NET Core Web API 8.0 (C# / Entity Framework Core / Identity & JWT / SQL Server)
   - **Frontend**: Flutter Mobile App (Dart / Material Design 3 / Agora RTC / Geolocator / Sensors Plus / Noise Meter)
