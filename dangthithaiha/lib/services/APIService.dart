@@ -10,7 +10,7 @@ import '../models/AppUser.dart';
 class ApiService {
   // Mặc định kết nối qua đường link Conveyor Cloud đang chạy từ Visual Studio (hỗ trợ mọi máy thật/máy ảo qua Internet).
   // Cho phép đổi IP trực tiếp trên màn hình Đăng nhập nếu cần.
-  static String _customBaseRoot = "https://lastsparklyshop42.conveyor.cloud";
+  static String _customBaseRoot = "https://foundtanboard45.conveyor.cloud";
 
   static String get baseRoot {
     if (_customBaseRoot.isNotEmpty) return _customBaseRoot;
