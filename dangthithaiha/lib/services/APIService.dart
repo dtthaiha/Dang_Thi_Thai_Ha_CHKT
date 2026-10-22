@@ -8,9 +8,9 @@ import '../models/AlertLog.dart';
 import '../models/AppUser.dart';
 
 class ApiService {
-  // Tự động chọn địa chỉ IP phù hợp: Máy ảo Android dùng 10.0.2.2:5000, Windows/Web dùng localhost:5000.
-  // Cho phép đổi IP trực tiếp trên màn hình Đăng nhập nếu nhóm chạy trên điện thoại thật qua Wi-Fi LAN.
-  static String _customBaseRoot = "";
+  // Mặc định kết nối qua đường link Conveyor Cloud đang chạy từ Visual Studio (hỗ trợ mọi máy thật/máy ảo qua Internet).
+  // Cho phép đổi IP trực tiếp trên màn hình Đăng nhập nếu cần.
+  static String _customBaseRoot = "https://lastsparklyshop42.conveyor.cloud";
 
   static String get baseRoot {
     if (_customBaseRoot.isNotEmpty) return _customBaseRoot;
